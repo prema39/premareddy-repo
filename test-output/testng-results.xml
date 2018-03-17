@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64432" started-at="2018-03-17T21:33:24Z" finished-at="2018-03-17T21:34:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="64432" started-at="2018-03-17T21:33:24Z" finished-at="2018-03-17T21:34:29Z">
+      <class name="testcases.BookTest">
+        <test-method status="PASS" signature="suitesetup()[pri:0, instance:testcases.BookTest@cb5822]" name="suitesetup" is-config="true" duration-ms="65" started-at="2018-03-17T21:33:24Z" finished-at="2018-03-17T21:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitesetup -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testcases.BookTest@cb5822]" name="launchBrowser" is-config="true" duration-ms="28589" started-at="2018-03-17T21:33:24Z" finished-at="2018-03-17T21:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testcases.BookTest@cb5822]" name="initialise" duration-ms="35722" started-at="2018-03-17T21:33:53Z" finished-at="2018-03-17T21:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+      </class> <!-- testcases.BookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
