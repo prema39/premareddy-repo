@@ -15,7 +15,7 @@ public class BookTest extends BaseTest {
 		osp.clickOnHomeTab();
 		
 		HomePage hp= new HomePage(driver);
-		hp.clickonBookButton();
+		hp.clickonBookThisButton();
 	}
 }
 

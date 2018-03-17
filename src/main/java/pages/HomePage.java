@@ -16,7 +16,7 @@ public class HomePage extends ElementActions {
 
 	By book_this_room_btn = By.linkText("Book this room");
 
-	public void clickonBookButton() {
+	public void clickonBookThisButton() {
 
 		Set<String> windows = driver.getWindowHandles();
 
