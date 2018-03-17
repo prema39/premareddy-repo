@@ -9,7 +9,7 @@ import pages.OfferSummeryPage;
 public class BookTest extends BaseTest {
 	
 	@Test
-	public void initialise() {
+	public void initilisation() {
 		
 		OfferSummeryPage osp= new OfferSummeryPage(driver);
 		osp.clickOnHomeTab();
