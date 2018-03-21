@@ -12,13 +12,15 @@ public class OfferSummeryPage extends ElementActions {
 
 	}
 
-	By notifi_close_btn = By.xpath("//a[@class='notifications-layout__close' and @title='Close']");
-	By hometab = By.linkText("Home");
+	By notifi_Close_Btn = By.xpath("//a[@class='notifications-layout__close' and @title='Close']");
+	By homeTab = By.linkText("Home");
 
 	public HomePage clickOnHomeTab() {
-		clickOn(notifi_close_btn);
-		clickOn(hometab);
+		clickOn(notifi_Close_Btn);
+		clickOn(homeTab);
 		return new HomePage(driver);
+		
+		
 	}
 
 }

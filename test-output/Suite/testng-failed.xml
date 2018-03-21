@@ -5,9 +5,9 @@
     <classes>
       <class name="testcases.BookTest">
         <methods>
+          <include name="initilisation"/>
           <include name="launchBrowser"/>
           <include name="suitesetup"/>
-          <include name="initialise"/>
         </methods>
       </class> <!-- testcases.BookTest -->
     </classes>
